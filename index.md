@@ -1,4 +1,6 @@
-Create a beautiful world in your heart
+
+# Create a beautiful world in your heart
+
 ---
 title: Welcome to my blog
 ---
