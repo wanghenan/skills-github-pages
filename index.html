@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Holmes Blog</title>
+    <title>Welcome to My Blog</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,6 +32,13 @@
         .blog-link-container {
             display: flex;
             justify-content: center;
+            align-items: center; /* 垂直居中 */
+            flex-direction: column; /* 垂直布局 */
+        }
+        .avatar {
+            width: 150px; /* 调整头像大小 */
+            border-radius: 50%; /* 圆形 */
+            margin-bottom: 20px;
         }
         .blog-link {
             padding: 10px 20px;
@@ -40,6 +47,7 @@
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            margin-bottom: 10px; /* 调整链接之间的间距 */
         }
         .blog-link:hover {
             background-color: #0056b3;
@@ -49,9 +57,11 @@
 <body>
     <div class="container">
         <h1>Welcome to My Blog</h1>
-        <p>This is my personal website where you can explore my blog.</p>
+        <p>This is my personal website where you can explore my blog and find me on other platforms.</p>
         <div class="blog-link-container">
+            <img src="https://pixabay.com/photos/forest-road-trees-car-lake-water-4450611/" alt="Avatar" class="avatar"> <!-- 替换 "avatar.jpg" 为您的头像图片路径 -->
             <a href="https://www.jianshu.com/u/4d6bd5891e02" class="blog-link">Explore My Blog</a>
+            <a href="https://www.xiaohongshu.com/user/profile/6471d187000000002a03561e?xhsshare=CopyLink&appuid=6471d187000000002a03561e&apptime=1715668771" class="blog-link">Find Me on xiaohongshu</a>
         </div>
     </div>
 </body>
